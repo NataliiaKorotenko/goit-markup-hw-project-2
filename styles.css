@@ -131,7 +131,7 @@ button, link {
   color: #000000;
 }
 
-/*.overlay {
+.overlay {
   opacity: 0;
   visibility: hidden;
   
@@ -143,12 +143,12 @@ button, link {
   background-color: rgba(0, 0, 0, .5);
   z-index: 20;
   transition: .3s all;
-}*/
+}
 
 
 .modal {
-  /*opacity: 0;
-  visibility: hidden;*/
+  opacity: 0;
+  visibility: hidden;
 
   position: fixed;
     z-index: 100;
@@ -158,11 +158,11 @@ button, link {
     height: 100%;
   }
 
-/*.modal.active,
+.modal.active,
 .overlay.active{
    opacity: 1;
    visibility: visible;
-}*/
+}
 
     /*-----------MODAL-TABLE---------------*/
 
